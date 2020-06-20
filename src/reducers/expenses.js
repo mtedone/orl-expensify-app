@@ -1,3 +1,4 @@
+// The state array is called expenses in the configureStore file
 const expensesReducerDefaultState = [];
 // Expenses reducer
 export default (state = expensesReducerDefaultState, action) => {
