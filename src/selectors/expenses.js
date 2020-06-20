@@ -1,5 +1,6 @@
 import moment from 'moment';
 
+// Invoked by the dashboard main component to retrieve all expenses
 export default (expenses, { text, sortBy, startDate, endDate }) => {
   return expenses
     .filter((expense) => {
@@ -17,6 +18,7 @@ export default (expenses, { text, sortBy, startDate, endDate }) => {
         .toLowerCase()
         .includes(text.toLowerCase());
 
+      // Will the item be included or not
       return startDateMatch && endDateMatch && textMatch;
     })
     .sort((a, b) => {
