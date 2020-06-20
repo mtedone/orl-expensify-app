@@ -8,7 +8,9 @@ export default () => {
     combineReducers({
       expenses: expensesReducer,
       filters: filterReducer,
-    })
+    }),
+    // Enables the Redux Chrome Dev Tools extension
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   );
   return store;
 };
