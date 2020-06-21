@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should handle error for invalid form submission 1`] = `
+"<div>
+  <form onSubmit={[Function]}>
+    <input type=\\"text\\" placeholder=\\"Description\\" autoFocus={true} value=\\"\\" onChange={[Function]} />
+    <input type=\\"text\\" placeholder=\\"Amount\\" value=\\"\\" onChange={[Function]} />
+    <withStyles(SingleDatePicker) date={{...}} onDateChange={[Function]} focused={false} onFocusChange={[Function]} displayFormat=\\"DD MMM YYYY\\" numberOfMonths={1} isOutsideRange={[Function: isOutsideRange]} id=\\"fa;lfdjal;sfjal;kdfjl;j\\" placeholder=\\"Date\\" ariaLabel={[undefined]} disabled={false} required={false} readOnly={false} screenReaderInputMessage=\\"\\" showClearDate={false} showDefaultInputIcon={false} inputIconPosition=\\"before\\" customInputIcon={{...}} customCloseIcon={{...}} noBorder={false} block={false} small={false} regular={false} verticalSpacing={22} keepFocusOnInput={false} orientation=\\"horizontal\\" anchorDirection=\\"left\\" openDirection=\\"down\\" horizontalMargin={0} withPortal={false} withFullScreenPortal={false} appendToBody={false} disableScroll={false} initialVisibleMonth={{...}} firstDayOfWeek={{...}} keepOpenOnDateSelect={false} reopenPickerOnClearDate={false} renderCalendarInfo={{...}} calendarInfoPosition=\\"bottom\\" hideKeyboardShortcutsPanel={false} daySize={39} isRTL={false} verticalHeight={{...}} transitionDuration={[undefined]} horizontalMonthPadding={13} dayPickerNavigationInlineStyles={{...}} navPosition=\\"navPositionTop\\" navPrev={{...}} navNext={{...}} renderNavPrevButton={{...}} renderNavNextButton={{...}} onPrevMonthClick={[Function: onPrevMonthClick]} onNextMonthClick={[Function: onNextMonthClick]} onClose={[Function: onClose]} renderMonthText={{...}} renderWeekHeaderElement={{...}} renderCalendarDay={[undefined]} renderDayContents={{...}} renderMonthElement={{...}} enableOutsideDays={false} isDayBlocked={[Function: isDayBlocked]} isDayHighlighted={[Function: isDayHighlighted]} monthFormat=\\"MMMM YYYY\\" weekDayFormat=\\"dd\\" phrases={{...}} dayAriaLabelFormat={[undefined]} />
+    <textarea placeholder=\\"Add a note for your expense (optional)\\" value=\\"\\" onChange={[Function]} />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>"
+`;
+
+exports[`should handle error for invalid form submission 2`] = `
+"<div>
+  <p>
+    Please provide description and amount
+  </p>
+  <form onSubmit={[Function]}>
+    <input type=\\"text\\" placeholder=\\"Description\\" autoFocus={true} value=\\"\\" onChange={[Function]} />
+    <input type=\\"text\\" placeholder=\\"Amount\\" value=\\"\\" onChange={[Function]} />
+    <withStyles(SingleDatePicker) date={{...}} onDateChange={[Function]} focused={false} onFocusChange={[Function]} displayFormat=\\"DD MMM YYYY\\" numberOfMonths={1} isOutsideRange={[Function: isOutsideRange]} id=\\"fa;lfdjal;sfjal;kdfjl;j\\" placeholder=\\"Date\\" ariaLabel={[undefined]} disabled={false} required={false} readOnly={false} screenReaderInputMessage=\\"\\" showClearDate={false} showDefaultInputIcon={false} inputIconPosition=\\"before\\" customInputIcon={{...}} customCloseIcon={{...}} noBorder={false} block={false} small={false} regular={false} verticalSpacing={22} keepFocusOnInput={false} orientation=\\"horizontal\\" anchorDirection=\\"left\\" openDirection=\\"down\\" horizontalMargin={0} withPortal={false} withFullScreenPortal={false} appendToBody={false} disableScroll={false} initialVisibleMonth={{...}} firstDayOfWeek={{...}} keepOpenOnDateSelect={false} reopenPickerOnClearDate={false} renderCalendarInfo={{...}} calendarInfoPosition=\\"bottom\\" hideKeyboardShortcutsPanel={false} daySize={39} isRTL={false} verticalHeight={{...}} transitionDuration={[undefined]} horizontalMonthPadding={13} dayPickerNavigationInlineStyles={{...}} navPosition=\\"navPositionTop\\" navPrev={{...}} navNext={{...}} renderNavPrevButton={{...}} renderNavNextButton={{...}} onPrevMonthClick={[Function: onPrevMonthClick]} onNextMonthClick={[Function: onNextMonthClick]} onClose={[Function: onClose]} renderMonthText={{...}} renderWeekHeaderElement={{...}} renderCalendarDay={[undefined]} renderDayContents={{...}} renderMonthElement={{...}} enableOutsideDays={false} isDayBlocked={[Function: isDayBlocked]} isDayHighlighted={[Function: isDayHighlighted]} monthFormat=\\"MMMM YYYY\\" weekDayFormat=\\"dd\\" phrases={{...}} dayAriaLabelFormat={[undefined]} />
+    <textarea placeholder=\\"Add a note for your expense (optional)\\" value=\\"\\" onChange={[Function]} />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>"
+`;
+
+exports[`should render Expense Form with expense data 1`] = `
+"<div>
+  <form onSubmit={[Function]}>
+    <input type=\\"text\\" placeholder=\\"Description\\" autoFocus={true} value=\\"Gum\\" onChange={[Function]} />
+    <input type=\\"text\\" placeholder=\\"Amount\\" value=\\"2\\" onChange={[Function]} />
+    <withStyles(SingleDatePicker) date={{...}} onDateChange={[Function]} focused={false} onFocusChange={[Function]} displayFormat=\\"DD MMM YYYY\\" numberOfMonths={1} isOutsideRange={[Function: isOutsideRange]} id=\\"fa;lfdjal;sfjal;kdfjl;j\\" placeholder=\\"Date\\" ariaLabel={[undefined]} disabled={false} required={false} readOnly={false} screenReaderInputMessage=\\"\\" showClearDate={false} showDefaultInputIcon={false} inputIconPosition=\\"before\\" customInputIcon={{...}} customCloseIcon={{...}} noBorder={false} block={false} small={false} regular={false} verticalSpacing={22} keepFocusOnInput={false} orientation=\\"horizontal\\" anchorDirection=\\"left\\" openDirection=\\"down\\" horizontalMargin={0} withPortal={false} withFullScreenPortal={false} appendToBody={false} disableScroll={false} initialVisibleMonth={{...}} firstDayOfWeek={{...}} keepOpenOnDateSelect={false} reopenPickerOnClearDate={false} renderCalendarInfo={{...}} calendarInfoPosition=\\"bottom\\" hideKeyboardShortcutsPanel={false} daySize={39} isRTL={false} verticalHeight={{...}} transitionDuration={[undefined]} horizontalMonthPadding={13} dayPickerNavigationInlineStyles={{...}} navPosition=\\"navPositionTop\\" navPrev={{...}} navNext={{...}} renderNavPrevButton={{...}} renderNavNextButton={{...}} onPrevMonthClick={[Function: onPrevMonthClick]} onNextMonthClick={[Function: onNextMonthClick]} onClose={[Function: onClose]} renderMonthText={{...}} renderWeekHeaderElement={{...}} renderCalendarDay={[undefined]} renderDayContents={{...}} renderMonthElement={{...}} enableOutsideDays={false} isDayBlocked={[Function: isDayBlocked]} isDayHighlighted={[Function: isDayHighlighted]} monthFormat=\\"MMMM YYYY\\" weekDayFormat=\\"dd\\" phrases={{...}} dayAriaLabelFormat={[undefined]} />
+    <textarea placeholder=\\"Add a note for your expense (optional)\\" value=\\"\\" onChange={[Function]} />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>"
+`;
+
+exports[`should render ExpenseForm correctly 1`] = `
+"<div>
+  <form onSubmit={[Function]}>
+    <input type=\\"text\\" placeholder=\\"Description\\" autoFocus={true} value=\\"\\" onChange={[Function]} />
+    <input type=\\"text\\" placeholder=\\"Amount\\" value=\\"\\" onChange={[Function]} />
+    <withStyles(SingleDatePicker) date={{...}} onDateChange={[Function]} focused={false} onFocusChange={[Function]} displayFormat=\\"DD MMM YYYY\\" numberOfMonths={1} isOutsideRange={[Function: isOutsideRange]} id=\\"fa;lfdjal;sfjal;kdfjl;j\\" placeholder=\\"Date\\" ariaLabel={[undefined]} disabled={false} required={false} readOnly={false} screenReaderInputMessage=\\"\\" showClearDate={false} showDefaultInputIcon={false} inputIconPosition=\\"before\\" customInputIcon={{...}} customCloseIcon={{...}} noBorder={false} block={false} small={false} regular={false} verticalSpacing={22} keepFocusOnInput={false} orientation=\\"horizontal\\" anchorDirection=\\"left\\" openDirection=\\"down\\" horizontalMargin={0} withPortal={false} withFullScreenPortal={false} appendToBody={false} disableScroll={false} initialVisibleMonth={{...}} firstDayOfWeek={{...}} keepOpenOnDateSelect={false} reopenPickerOnClearDate={false} renderCalendarInfo={{...}} calendarInfoPosition=\\"bottom\\" hideKeyboardShortcutsPanel={false} daySize={39} isRTL={false} verticalHeight={{...}} transitionDuration={[undefined]} horizontalMonthPadding={13} dayPickerNavigationInlineStyles={{...}} navPosition=\\"navPositionTop\\" navPrev={{...}} navNext={{...}} renderNavPrevButton={{...}} renderNavNextButton={{...}} onPrevMonthClick={[Function: onPrevMonthClick]} onNextMonthClick={[Function: onNextMonthClick]} onClose={[Function: onClose]} renderMonthText={{...}} renderWeekHeaderElement={{...}} renderCalendarDay={[undefined]} renderDayContents={{...}} renderMonthElement={{...}} enableOutsideDays={false} isDayBlocked={[Function: isDayBlocked]} isDayHighlighted={[Function: isDayHighlighted]} monthFormat=\\"MMMM YYYY\\" weekDayFormat=\\"dd\\" phrases={{...}} dayAriaLabelFormat={[undefined]} />
+    <textarea placeholder=\\"Add a note for your expense (optional)\\" value=\\"\\" onChange={[Function]} />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>"
+`;
