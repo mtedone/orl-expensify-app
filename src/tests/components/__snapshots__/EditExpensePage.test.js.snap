@@ -2,7 +2,7 @@
 
 exports[`should render EditExpensePage 1`] = `
 "<div>
-  <ExpenseForm expense={[undefined]} onSubmit={[Function]} />
+  <ExpenseForm expense={{...}} onSubmit={[Function]} />
   <button onClick={[Function]}>
     Remove
   </button>

@@ -16,6 +16,7 @@ beforeEach(() => {
       editExpense={editExpenseSpy}
       removeExpense={removeExpenseSpy}
       history={historySpy}
+      expense={expenses[2]}
     />
   );
 });
@@ -25,8 +26,13 @@ test('should render EditExpensePage', () => {
 });
 
 test('should handle editExpense', () => {
-  wrapper.find('ExpenseForm').prop('onSubmit')(expenses[1]);
-
+  wrapper.find('ExpenseForm').prop('onSubmit')(expenses[2]);
   expect(historySpy.push).toHaveBeenLastCalledWith('/');
-  expect(editExpenseSpy).toHaveBeenLastCalledWith(expenses[1]);
+  expect(editExpenseSpy).toHaveBeenLastCalledWith(expenses[2].id, expenses[2]);
+});
+
+test('should handle removeExpense', () => {
+  wrapper.find('button').simulate('click');
+  expect(historySpy.push).toHaveBeenLastCalledWith('/');
+  expect(removeExpenseSpy).toHaveBeenLastCalledWith({ id: expenses[2].id });
 });
