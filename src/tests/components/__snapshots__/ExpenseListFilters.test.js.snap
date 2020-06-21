@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListFilters correctly 1`] = `
+"<div>
+  <input type=\\"text\\" value=\\"\\" onChange={[Function]} />
+  <select value=\\"date\\" onChange={[Function]}>
+    <option value=\\"date\\">
+      Date
+    </option>
+    <option value=\\"amount\\">
+      Amount
+    </option>
+  </select>
+  <withStyles(DateRangePicker) startDate={{...}} startDateId=\\"startDateId99098098098098\\" endDate={{...}} endDateId=\\"endDateId90df8accj08rewff\\" onDatesChange={[Function]} focusedInput={{...}} onFocusChange={[Function]} displayFormat=\\"DD MMM YYYY\\" numberOfMonths={1} isOutsideRange={[Function: isOutsideRange]} showClearDates={true} startDatePlaceholderText=\\"Start Date\\" endDatePlaceholderText=\\"End Date\\" startDateAriaLabel={[undefined]} endDateAriaLabel={[undefined]} startDateOffset={[undefined]} endDateOffset={[undefined]} disabled={false} required={false} readOnly={false} screenReaderInputMessage=\\"\\" showDefaultInputIcon={false} inputIconPosition=\\"before\\" customInputIcon={{...}} customArrowIcon={{...}} customCloseIcon={{...}} noBorder={false} block={false} small={false} regular={false} keepFocusOnInput={false} renderMonthText={{...}} renderWeekHeaderElement={{...}} orientation=\\"horizontal\\" anchorDirection=\\"left\\" openDirection=\\"down\\" horizontalMargin={0} withPortal={false} withFullScreenPortal={false} appendToBody={false} disableScroll={false} initialVisibleMonth={{...}} keepOpenOnDateSelect={false} reopenPickerOnClearDates={false} renderCalendarInfo={{...}} calendarInfoPosition=\\"bottom\\" hideKeyboardShortcutsPanel={false} daySize={39} isRTL={false} firstDayOfWeek={{...}} verticalHeight={{...}} transitionDuration={[undefined]} verticalSpacing={22} horizontalMonthPadding={[undefined]} dayPickerNavigationInlineStyles={{...}} navPosition=\\"navPositionTop\\" navPrev={{...}} navNext={{...}} renderNavPrevButton={{...}} renderNavNextButton={{...}} onPrevMonthClick={[Function: onPrevMonthClick]} onNextMonthClick={[Function: onNextMonthClick]} onClose={[Function: onClose]} renderCalendarDay={[undefined]} renderDayContents={{...}} renderMonthElement={{...}} minimumNights={1} enableOutsideDays={false} isDayBlocked={[Function: isDayBlocked]} isDayHighlighted={[Function: isDayHighlighted]} minDate={[undefined]} maxDate={[undefined]} monthFormat=\\"MMMM YYYY\\" weekDayFormat=\\"dd\\" phrases={{...}} dayAriaLabelFormat={[undefined]} />
+</div>"
+`;
+
+exports[`should render ExpenseListFilters with alt data correctly 1`] = `
+"<div>
+  <input type=\\"text\\" value=\\"bills\\" onChange={[Function]} />
+  <select value=\\"amount\\" onChange={[Function]}>
+    <option value=\\"date\\">
+      Date
+    </option>
+    <option value=\\"amount\\">
+      Amount
+    </option>
+  </select>
+  <withStyles(DateRangePicker) startDate={{...}} startDateId=\\"startDateId99098098098098\\" endDate={{...}} endDateId=\\"endDateId90df8accj08rewff\\" onDatesChange={[Function]} focusedInput={{...}} onFocusChange={[Function]} displayFormat=\\"DD MMM YYYY\\" numberOfMonths={1} isOutsideRange={[Function: isOutsideRange]} showClearDates={true} startDatePlaceholderText=\\"Start Date\\" endDatePlaceholderText=\\"End Date\\" startDateAriaLabel={[undefined]} endDateAriaLabel={[undefined]} startDateOffset={[undefined]} endDateOffset={[undefined]} disabled={false} required={false} readOnly={false} screenReaderInputMessage=\\"\\" showDefaultInputIcon={false} inputIconPosition=\\"before\\" customInputIcon={{...}} customArrowIcon={{...}} customCloseIcon={{...}} noBorder={false} block={false} small={false} regular={false} keepFocusOnInput={false} renderMonthText={{...}} renderWeekHeaderElement={{...}} orientation=\\"horizontal\\" anchorDirection=\\"left\\" openDirection=\\"down\\" horizontalMargin={0} withPortal={false} withFullScreenPortal={false} appendToBody={false} disableScroll={false} initialVisibleMonth={{...}} keepOpenOnDateSelect={false} reopenPickerOnClearDates={false} renderCalendarInfo={{...}} calendarInfoPosition=\\"bottom\\" hideKeyboardShortcutsPanel={false} daySize={39} isRTL={false} firstDayOfWeek={{...}} verticalHeight={{...}} transitionDuration={[undefined]} verticalSpacing={22} horizontalMonthPadding={[undefined]} dayPickerNavigationInlineStyles={{...}} navPosition=\\"navPositionTop\\" navPrev={{...}} navNext={{...}} renderNavPrevButton={{...}} renderNavNextButton={{...}} onPrevMonthClick={[Function: onPrevMonthClick]} onNextMonthClick={[Function: onNextMonthClick]} onClose={[Function: onClose]} renderCalendarDay={[undefined]} renderDayContents={{...}} renderMonthElement={{...}} minimumNights={1} enableOutsideDays={false} isDayBlocked={[Function: isDayBlocked]} isDayHighlighted={[Function: isDayHighlighted]} minDate={[undefined]} maxDate={[undefined]} monthFormat=\\"MMMM YYYY\\" weekDayFormat=\\"dd\\" phrases={{...}} dayAriaLabelFormat={[undefined]} />
+</div>"
+`;
