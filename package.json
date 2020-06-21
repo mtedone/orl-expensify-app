@@ -17,6 +17,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "core-js": "^3.6.5",
     "css-loader": "^3.6.0",
+    "enzyme-to-json": "^3.5.0",
     "live-server": "^1.2.1",
     "moment": "^2.27.0",
     "node-sass": "^4.14.1",
@@ -43,7 +44,11 @@
   "homepage": "https://github.com/mtedone/orl-react#readme",
   "devDependencies": {
     "chokidar": "^3.4.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "jest": "^26.0.1",
+    "raf": "^3.4.1",
+    "react-test-renderer": "^16.13.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
@@ -51,6 +56,6 @@
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server",
-    "test": "jest"
+    "test": "jest --config=jest.config.json"
   }
 }
